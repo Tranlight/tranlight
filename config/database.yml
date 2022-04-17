@@ -63,5 +63,4 @@ test:
 #     url: <%= ENV['DATABASE_URL'] %>
 #
 production:
-  <<: *default
-  database: <%= ENV.fetch('DB_NAME_PROD') { 'tranlight_prod' } %>
+  url: <%= ENV.fetch('CLEARDB_DATABASE_URL') { 'tranlight_prod' } %>
