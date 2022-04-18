@@ -65,3 +65,6 @@ gem 'refinerycms-wymeditor', git: 'https://github.com/parndt/refinerycms-wymedit
 
 # The default authentication adapter
 gem 'refinerycms-authentication-devise', git: 'https://github.com/refinery/refinerycms-authentication-devise', branch: 'master'
+
+gem 'bootstrap', '~> 5.1.3'
+gem 'htmlbeautifier'
